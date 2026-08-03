@@ -1,39 +1,20 @@
-# Financial Stream LLC — Website (GitHub Pages)
+# Financial Stream LLC — Legacy Repository
 
-This is a static website intended for GitHub Pages.
+> **Deprecated duplicate repository.** This repository is not the canonical production source for the current Financial Stream website and should not be used for new development or deployment.
 
-## Live URL
-https://financialstreamllc.com
+## Canonical project
 
-## Bilingual (EN/RU)
-Language switch is in the header. Text is controlled in `script.js` (`i18n` object).
+- Production repository: https://github.com/Financialstream/financialstream.github.io
+- Live website: https://financialstreamllc.com/
+- ProAI Expert case study: https://proai-expert.com/case-studies/financial-stream/
+- Russian case study: https://proai-expert.com/ru/case-studies/financial-stream/
 
-## Form submissions (email delivery)
-GitHub Pages is static — it **cannot** send emails by itself.
+## Status
 
-Right now the forms use a safe fallback:
-- On submit, it opens an email draft to `financialstreamllc@gmail.com` with the entered data.
+This repository contains an earlier static implementation and outdated setup notes. Its historical form behavior, localization method, deployment instructions, and project status do not describe the current production website.
 
-### To receive submissions automatically (recommended)
-Pick **one** option:
-1) **Formspree** (easy):
-   - Create a Formspree form endpoint
-   - Replace `action="#"` in both forms with your Formspree URL
-   - Remove the JS `hookMailto(...)` calls (or keep, but it will conflict)
+Do not copy changes from this repository into production without independently checking the canonical Financial Stream repository.
 
-2) **Netlify Forms**:
-   - Deploy via Netlify (instead of GitHub Pages)
-   - Add Netlify form attributes and connect notifications to email
+## Recommended repository action
 
-## Assets
-- `assets/logo-horizontal.png` extracted from the approved business card
-- `assets/hero-bg.jpg` soft background image aligned with the card/site style
-
-## Deploy to GitHub Pages
-1. Create repo named: `financialstreamllc.com`
-2. Upload all files from this folder to the repo root
-3. Settings → Pages → Source: `Deploy from a branch` → Branch: `main` → Folder: `/ (root)`
-4. Wait for build → your site is live.
-
----
-If you need a custom domain later, add it in Settings → Pages.
+After confirming that no GitHub Pages deployment, external link, automation, or integration still depends on this duplicate, archive this repository in GitHub settings. Delete it only after the archive period and dependency check are complete.
